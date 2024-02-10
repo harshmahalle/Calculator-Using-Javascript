@@ -54,12 +54,12 @@ document.addEventListener('DOMContentLoaded', function () {
     
 
     function clear() {
-        display.value = ""; // Clear the value of the input element
-        currentInput = ""; // Clear the current input variable
+        display.value = ""; 
+        currentInput = ""; 
     }
 
     function handleDelete() {
-        currentInput = currentInput.slice(0, -1); // Remove the last character
+        currentInput = currentInput.slice(0, -1); 
         display.value = currentInput;
     }
      
